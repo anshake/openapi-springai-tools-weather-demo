@@ -1,3 +1,7 @@
 spring:
   application:
     name: openapi-springai-tools-weather-demo
+
+logging:
+  level:
+    com.shake.ai.openapi: DEBUG

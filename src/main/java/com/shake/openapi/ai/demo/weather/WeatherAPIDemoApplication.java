@@ -10,7 +10,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
 
 @SpringBootApplication
-public class OpenapiSpringaiToolsWeatherDemoApplication
+public class WeatherAPIDemoApplication
 {
 
     private static final String PROMPT = "What is the temperature in Amsterdam right now?";
@@ -43,7 +43,7 @@ public class OpenapiSpringaiToolsWeatherDemoApplication
 
     public static void main(String[] args)
     {
-        SpringApplication.run(OpenapiSpringaiToolsWeatherDemoApplication.class, args);
+        SpringApplication.run(WeatherAPIDemoApplication.class, args);
     }
 
 }

@@ -3,7 +3,7 @@
 A minimal, runnable demo of [openapi-spring-ai-tools](https://github.com/anshake/openapi-spring-ai-tools).
 
 It points the library at the [Open-Meteo](https://open-meteo.com/) OpenAPI spec, turns
-every operation into a Spring AI tool, and lets an Anthropic model answer a weather
+every operation into a Spring AI tool, and lets LLM answer a weather
 question by calling the real API — with no per-endpoint code.
 
 ## What it does
